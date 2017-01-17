@@ -1,0 +1,319 @@
+html, body {
+  background: url("https://cdn.pixabay.com/photo/2016/04/06/01/32/fuchs-1310826_960_720.jpg") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+* {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*-----NAVIGATION-----*/
+nav {
+  background-color:#65A8A6;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display:inline-block;  
+}
+
+nav a {
+  color:#F8ECC2;
+  display:block;
+  text-decoration: none;
+  padding: 20px 30px;
+ }
+
+nav a:hover {
+  background: #E65540;
+}
+
+.menu-trigger {
+  display:none;
+  color:#F8ECC2;
+}
+
+/*-----MEADIA FOR NAVIGATION-----*/
+@media screen and (max-width:500px) {
+  .menu-trigger {
+    display:block;
+  }
+  nav a {
+    padding: 5px 30px;
+  }
+  nav ul li {
+    display:block;
+    border-top:1px #79896D solid;  
+    text-align: none;  
+  }
+  nav ul {
+    display:none;
+  }
+}
+/*-----END NAVIGATION-----*/
+
+/*-------HEADER-WRAPPER-------*/
+.header-wrapper {
+  color: #fff;
+  margin-top: 5%;
+  text-align: center;
+  height: 350px;
+}
+.header-wrapper p {
+  font-size: 1em;
+}
+.button a {
+  font-size: 1.6em;
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: underline;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  margin-top: 500px;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+.button a:hover {
+  font-size: 1.6em;
+  color: #000;
+  background-color: #C65553;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+
+/*-------ENDHEADER-WRAPPER-------*/
+
+/*-------CONTENT-WRAPPER-------*/
+.content-wrapper {
+  background: #333;
+  height: auto;
+  text-align: center;
+}
+.content-wrapper {
+  color: #fff;
+  text-align: center;
+}
+.content-wrapper h1 {
+  color: #F8ECC2;
+}
+.content-wrapper p {
+  color: #fff;
+  text-align: center;
+}
+.line {
+  border: 2px solid #E65540;
+}
+/*-------END CONTENT-WRAPPER-------*/
+
+/*-------INFO ABOUT US------*/
+.info-about {
+  background-color: #672246;
+  height: 520px;
+}
+.info-about h1 {
+  color: #F8ECC2;
+  text-align: center;
+}
+.info-about p {
+  color: #fff;
+  text-align: center;
+}
+/*-------END INFO ABOUT US------*/
+
+/*-------CONTACTS-------*/
+.contacts {
+  background-color: #2C6F25;
+  text-align: center;
+  height: 165px;
+}
+
+.contacts {
+  color: #F8ECC2;
+}
+
+.gmail {
+  font-size: 1.6em;
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: underline;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+.gmail:hover {
+  font-size: 1.6em;
+  color: #fff;
+  background-color: #E04C40;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.instagram {
+  font-size: 1.6em;
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: underline;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+.instagram:hover {
+  font-size: 1.6em;
+  color: #fff;
+  background-color: #517FA6;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.facebook {
+  font-size: 1.6em;
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: underline;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+.facebook:hover {
+  font-size: 1.6em;
+  color: #fff;
+  background-color: #3B5998;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.twitter {
+  font-size: 1.6em;
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  text-decoration: underline;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+.twitter:hover {
+  font-size: 1.6em;
+  color: #fff;
+  background-color: #0FB5EE;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+}
+
+@media screen and (max-width: 770px) {
+  .contacts {
+  height: 400px;
+  }
+  .gmail{
+    display: block;
+    margin: 10px;
+  }
+  .instagram {
+    display: block;
+    margin: 10px;
+  }
+  .facebook {
+    display: block;
+    margin: 10px;
+  }
+  .twitter {
+    display: block;
+    margin: 10px;
+  }
+}
+/*-------CONTACTS-------*/
+
+/*-------SCROLLUP------*/
+.scrollup {
+  background-color: #2C6F25;
+}
+/*-------END SCROLLUP------*/
+
+/*------FOOTER------*/
+footer {
+  background-color:#65A8A6;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  padding:20px 30px;
+  text-align: center;
+}
+.footer p {
+  color:#fff;
+  text-align: center;
+}
+.footer a {
+  text-align: center;
+  text-decoration: none;
+  color: #224918;
+  margin-left: 10px;
+}
+.footer a:hover {
+  color: #fff;
+}
+/*------END FOOTER------*/
